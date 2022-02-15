@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    border:0;
+    margin: 0;
+}
+html, 
+body {
+    height: 100%;
+}
+header
+{
+    padding-bottom: 30px;
+}
+.container-fluid
+{
+    
+    margin-left: 5px;
+    font-family: sans-serif;
+    padding-right: 20px;
+}
+section{
+    background-color: grey;
+    margin-right: 30px ;
+    
+}
+p{
+    margin-left: 10px;
+}
+h1,h2
+{
+    text-align: center;
+    font-weight: bold;
+}
+.navbar{
+    background-color: grey;
+    font-weight: bold;
+}
+#navbar
+{
+    background-color: azure;
+}
+@media (max-width: 767px) 
+{
+.container-fluid
+{
+    width: 80%;
+    margin: 20px auto 0;
+    padding-right: 0px;
+}
+
+}
